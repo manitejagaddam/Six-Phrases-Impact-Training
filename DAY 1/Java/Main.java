@@ -1,3 +1,12 @@
+// Input types
+// next() -> takes the input and returns a string
+// nextInt() -> takes the input and returns an integer
+// nextFloat() -> takes the input and returns a float
+// nextDouble() -> takes the input and returns a double
+// nextLine() -> takes the input and returns a string and moves to next line
+
+import java.util.Scanner;
+
 class Test {
     int num1;
     String s;
@@ -27,7 +36,17 @@ class Main {
   
   
     public static void main(String[] args) {
-        Test t = new Test();
-        t.print();
+        // Test t = new Test();
+        // t.print();
+        
+        Scanner sc = new Scanner(System.in);
+
+        int n = sc.nextInt();
+        sc.nextLine();
+        double db = sc.nextDouble();
+        sc.nextLine();
+        String s = sc.nextLine();
+        System.out.println(s + " " + db + " " + n);
+    
   }
 }
