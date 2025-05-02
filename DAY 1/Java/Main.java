@@ -7,8 +7,16 @@ class Test {
         // s = "Hello";
     }
 
+    public void wrappers(){
+        int k = 10;
+        Integer i = k;       // this is a wrapper classes
+        int j = i;
+        System.out.println(i + " " + j + " " + k);
+    }
     public void print(){
         System.out.println(num1 + " " + s);
+        System.out.println(10 + 5 + " hello");
+        System.out.println("hello " + 10 + 5);
     }
 
 }
