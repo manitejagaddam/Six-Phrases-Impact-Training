@@ -6,7 +6,6 @@ class Day1{
         int add(int num1, int num2){
             return num1 + num2;
         }
-
         void printString(string s){
             cout << s << endl;
         }
