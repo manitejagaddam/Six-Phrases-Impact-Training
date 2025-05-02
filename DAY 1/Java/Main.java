@@ -31,6 +31,15 @@ class Test {
 }
 
 
+// class Main extends Object{}  // every class would inherit from object class
+class Object {
+    // This is the default implementation of toString() in Object class which is a parent class of all classes
+    public String toString() {
+        return getClass().getName() + "@" + Integer.toHexString(hashCode());
+    }
+    
+}
+
 
 class Main {
   
