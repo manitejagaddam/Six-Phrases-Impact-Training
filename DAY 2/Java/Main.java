@@ -52,9 +52,34 @@ public class Main {
 
 
         // wap to accept an number and if number is 1 print 2 and if number is 2 print 1 without using conditional statements
+        // Scanner sc = new Scanner(System.in);
+        // int n = sc.nextInt();
+        // System.out.println(3 - n);
+
+
+        // write a program to check what type of triagle it is based on three given sides a, b, c
+        // if all 3 sides are equal -- equilateral
+        //  if any 2 sides are equal -- isosceles
+        // if all 3 sides are unequall -- scalen
+        // A triangle is valid only id sum of any two sides are greater than teh third side
+
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        System.out.println(3 - n);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
+
+        if(a + b > c && b + c > a && c + a > b){
+            if(a == b && a == c){
+                System.out.println("Equilateral Triangle");
+            }else if(a == b || a == c || b == c){
+                System.out.println("Isosceles Triangle");
+            }else{
+                System.out.println("Scalene Triangle");
+            }
+        }else{
+            System.out.println("Triangle is Not Vaild");
+        }
+
 
     }
 }
