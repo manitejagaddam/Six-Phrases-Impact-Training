@@ -103,19 +103,51 @@ public class Main {
         //     System.out.println("Triangle is Not Vaild");
         // }
 
+
+
+
+
+
         // wap to detect the magic number
         // A magic Number is one where the sum of digits are repeated until a single digit becomes 1.
 
 
-        Scanner sc = new Scanner(System.in);
+        // Scanner sc = new Scanner(System.in);
 
-        int n = sc.nextInt();
+        // int n = sc.nextInt();
 
-        if((n - 1) % 9 == 0) {
-            System.out.println("Magic Number");
-        }else{
-            System.out.println("Not a magic Number");
-        }
+        // if((n - 1) % 9 == 0) {
+        //     System.out.println("Magic Number");
+        // }else{
+        //     System.out.println("Not a magic Number");
+        // }
+
+
+
+        // Tax Calculator
+
+        // Scanner sc = new Scanner(System.in);
+
+        // System.out.print("Enter Your Salary : ");
+        // double salary = sc.nextDouble();
+        // int tax = 0;
+
+        // if(salary <= 1200000){
+        //     tax = 0;
+        // }else if (salary <= 1600000){
+        //     tax = 15;
+        // }else if(salary <= 2000000){
+        //     tax = 20;
+        // }else if(salary <= 2400000){
+        //     tax = 25;
+        // }else{
+        //     tax = 30;
+        // }
+
+        // double taxAmount = (salary / 100) * tax;
+
+        // System.out.println("You Need to Pay " + taxAmount + " Rupees as Tax");
+
 
 
 
