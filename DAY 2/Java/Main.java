@@ -126,27 +126,31 @@ public class Main {
 
         // Tax Calculator
 
-        // Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
-        // System.out.print("Enter Your Salary : ");
-        // double salary = sc.nextDouble();
-        // int tax = 0;
+        System.out.print("Enter Your Salary : ");
+        double salary = sc.nextDouble();
+        int tax = 0;
 
-        // if(salary <= 1200000){
-        //     tax = 0;
-        // }else if (salary <= 1600000){
-        //     tax = 15;
-        // }else if(salary <= 2000000){
-        //     tax = 20;
-        // }else if(salary <= 2400000){
-        //     tax = 25;
-        // }else{
-        //     tax = 30;
-        // }
+        if(salary <= 1200000){
+            tax = 0;
+        }else if (salary <= 1600000){
+            salary = 1600000 - salary;
+            tax = 15;
+        }else if(salary <= 2000000){
+            salary = 2000000 - salary;
+            tax = 20;
+        }else if(salary <= 2400000){
+            salary = 2400000 - salary;
+            tax = 25;
+        }else{
+            salary = salary - 2400000;
+            tax = 30;
+        }
 
-        // double taxAmount = (salary / 100) * tax;
+        double taxAmount = (salary / 100) * tax;
 
-        // System.out.println("You Need to Pay " + taxAmount + " Rupees as Tax");
+        System.out.println("You Need to Pay " + taxAmount + " Rupees as Tax");
 
 
 
