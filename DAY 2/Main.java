@@ -23,34 +23,73 @@ class LargerAndDivisible{
     }
 }
 
+class ConsecutiveNumbers{
+    int findNums(int n){
+        int count = 0;
+        for(int i = 0 ; i <= n ; i++){
+            for(int j = 0 ; j <= n ; j++){
+                for(int k = 0 ; k <= n ; k++){
+                    if(i + j + k == n) count++;
+                }
+            }
+        }
+
+        return count;
+    }
+}
+
 public class Main {
     public static void main(String[] args) {
-        // Q no 1: Given a number n which is the sum of two contigueous number
-        AddTwoConsecutive addTwo = new AddTwoConsecutive();
         Scanner kbd = new Scanner(System.in);
-        int n1 = kbd.nextInt();
-        int twoNums = addTwo.finNumber(n1);
-        System.out.printf("Numbers %d and %d can form %d\n", twoNums, twoNums + 1, n1 );
-        
-        // Q no 2: Given a number n which is the sum of three contigueous number
-        kbd.nextLine();
-        int n2 = kbd.nextInt();
-        AddThreeConsecutive addThree = new AddThreeConsecutive();
-        int threeNums = addThree.findNumber(n2);
-        System.out.printf("Numbers %d, %d and %d can form %d\n", threeNums, threeNums + 1, threeNums + 2, n2);
+        // // Q no 1: Given a number n which is the sum of two contigueous number
+        // AddTwoConsecutive addTwo = new AddTwoConsecutive();
+        // int n1 = kbd.nextInt();
+        // int twoNums = addTwo.finNumber(n1);
+        // System.out.printf("Numbers %d and %d can form %d\n", twoNums, twoNums + 1, n1 );
 
-        // Q no 3: Given n1 and n2 find the values x, such that x is larger than n1 and divisible by n2 
-        // test Cases : n1 = 40, n2 = 12      x = 48
-        kbd.nextLine();
-        int a = kbd.nextInt();
-        kbd.nextLine();
-        int b = kbd.nextInt();
 
-        LargerAndDivisible largeDiv = new LargerAndDivisible();
-        int x = largeDiv.findNum(a, b);
-        System.out.printf("The Required Number is : %d", x);
+
+
+
         
+        // // Q no 2: Given a number n which is the sum of three contigueous number
+        // kbd.nextLine();
+        // int n2 = kbd.nextInt();
+        // AddThreeConsecutive addThree = new AddThreeConsecutive();
+        // int threeNums = addThree.findNumber(n2);
+        // System.out.printf("Numbers %d, %d and %d can form %d\n", threeNums, threeNums + 1, threeNums + 2, n2);
+
+
+
+
+
+        // // Q no 3: Given n1 and n2 find the values x, such that x is larger than n1 and divisible by n2 
+        // // test Cases : n1 = 40, n2 = 12      x = 48
+        // kbd.nextLine();
+        // int a = kbd.nextInt();
+        // kbd.nextLine();
+        // int b = kbd.nextInt();
+
+        // LargerAndDivisible largeDiv = new LargerAndDivisible();
+        // int x = largeDiv.findNum(a, b);
+        // System.out.printf("The Required Number is : %d\n", x);
+
+
+
+
         
+
+        // Given a number n, Find number of ways we can form n by adding 3 consecutive whole numbers.
+        // Test Cases: n = 1  => {0, 0, 1}, {0, 1, 0}, {1, 0, 0};
+
+        // kbd.nextLine();
+        int n = kbd.nextInt();
+        ConsecutiveNumbers conNum = new ConsecutiveNumbers();
+        int no_of_numbers = conNum.findNums(n);
+        System.out.println("There are " + no_of_numbers + " to make " + n);
+
+
+        // 
 
     }
 }
