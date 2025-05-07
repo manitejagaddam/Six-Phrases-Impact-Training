@@ -89,6 +89,6 @@ public class Main {
         System.out.println("There are " + no_of_numbers + " to make " + n);
 
 
-
+        kbd.close();
     }
 }
