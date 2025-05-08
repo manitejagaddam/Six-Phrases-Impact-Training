@@ -1,0 +1,144 @@
+What is data abstraction?
+Data abstraction is the reduction of a particular body of data to a simplified representation of the whole. Abstraction, in general, is the process of removing characteristics from something to reduce it to a set of essential elements. To this end, data abstraction creates a simplified representation of the underlying data, while hiding its complexities and associated operations. In computing, data abstraction is commonly used in object-oriented programming (OOP) and when working with a database management system (DBMS).
+
+Benefits of Data Abstraction
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+i) Reduced Size
+
+ii) Operational comfort/efficiency
+	Comparable
+	Computable
+iii) Security
+
+
+
+
+
+2024	10	12
+
+a) "20241012"
+
+character array needs 9 bytes, including NULL
+
+b)
+
+2024	10	12
+short	short	short
+ 
+6 bytes
+
+c) 20241012
+     int
+
+4 bytes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Year : 1981
+
+Organization : Microsoft
+
+Requirement : Store the Date/Time stamp
+		Date of Creation
+		Date of Last Access
+		Date of Last Update
+		Demo
+
+	What data structure would you suggest ?
+
+
+	struct date
+	{
+		int dd;
+		int mm;
+		int yyyy;
+	};
+
+	struct date
+	{
+		int dd; 	// 2 bytes
+		int mm;		// 2 bytes
+		int yyyy;	// 2 bytes
+	};
+
+	Total : 6 Bytes
+
+
+	Does dd require an int ?
+
+	Does dd require an int ?
+
+
+
+
+
+
+
+	struct date
+	{
+		char dd;		// 1 byte
+		char mm;		// 1 byte
+		int yyyy;		// 2 bytes
+	};
+
+
+	Better but not the best
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+	
+
+
+
