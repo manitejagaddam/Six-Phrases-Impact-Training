@@ -1,0 +1,201 @@
+Day 1 : 05/05/2025
+
+Visualization
+~~~~~~~~~~~~~
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Given 'n' check if 'n' can be represented as sum of 2 primes, output is Yes/No
+
+2 <= n <= 10^12
+
+
+
+
+
+
+
+
+
+
+
+
+Given a number split it into parts , such that sum of the parts equals to the input and product is maximum.
+
+2 <= n <= 10^3
+Samples:
+	4		2 2
+	10		2 2 3 3 
+
+Given a number 'n' find number of ways we can form 'n' by adding 3 Whole numbers.
+0<=n<=INT_MAX
+Chiranjevee
+
+
+
+
+
+
+
+
+
+
+
+
+Repeated sum of digits of a number to single digit.
+6974	-> 	26	->	8
+123456789->	45	->	9
+
+
+
+
+
+
+Given a number 'n' - check if it is two's power 
+Output : Yes/No
+0 <= n <= INT_MAX
+
+
+
+
+
+
+https://leetcode.com/problems/divide-two-integers/description/?envType=problem-list-v2&envId=math
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://leetcode.com/problems/happy-number/description/
+
+
+
+
+
+
+
+
+
+https://leetcode.com/problems/powx-n/description/
+
+
+
+
+
+
+
+
+
+
+https://leetcode.com/problems/reordered-power-of-2/description/
+
+
+
+
+
+
+
+
+
+
+https://leetcode.com/problems/spiral-matrix/description/?envType=problem-list-v2&envId=array
+
+
+
+
+
+
+
+
+
+
+
+https://leetcode.com/problems/merge-intervals/description/?envType=problem-list-v2&envId=array
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://leetcode.com/problems/subarray-sum-equals-k/description/
+
+
+
+
+
+
+
+
+
+
+
+https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/description/
+
+
+extra
+https://leetcode.com/problems/maximum-sum-circular-subarray/description/
+https://leetcode.com/problems/divide-two-integers/description/?envType=problem-list-v2&envId=math
+
+
+
+/*
+Here's a breakdown of the rules: 
+Positive divided by positive: 
+The result is positive (e.g., 10 / 5 = 2).
+Positive divided by negative: 
+The result is negative (e.g., 10 / -5 = -2).
+Negative divided by positive: 
+The result is negative (e.g., -10 / 5 = -2).
+Negative divided by negative: 
+The result is positive (e.g., -10 / -5 = 2).
+*/
+
+
+https://leetcode.com/problems/merge-intervals/description/?envType=problem-list-v2&envId=array
+            Arrays.sort(intervals, (e1,e2)-> Integer.compare(e1[0], e2[0]));
+https://www.baeldung.com/java-collection-merge-overlapping-intervals
+
+
+
+
+
+
+
