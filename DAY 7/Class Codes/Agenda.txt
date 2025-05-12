@@ -1,0 +1,149 @@
+What is data abstraction?
+Data abstraction is the reduction of a particular body of data to a simplified representation of the whole. Abstraction, in general, is the process of removing characteristics from something to reduce it to a set of essential elements. To this end, data abstraction creates a simplified representation of the underlying data, while hiding its complexities and associated operations. In computing, data abstraction is commonly used in object-oriented programming (OOP) and when working with a database management system (DBMS).
+
+What is data abstraction in OOP?
+Modern programming languages that incorporate OOP methodologies commonly use data abstraction to hide the low-level details of the programming constructs that define the underlying logic, which in turn simplifies and streamlines the development process. Object-oriented programming organizes software design around data objects, rather than functions or logic. Data abstraction is a key characteristic of OOP that's implemented using classes and objects.
+
+A class is a template definition that bundles related attributes and methods into a named package. It is a special type of object that serves as a blueprint for creating other objects. In addition, a class can include subclasses that inherit some or all the class's attributes and methods, resulting in a type of class hierarchy. Subclasses can also define their own attributes and methods.
+
+An object is a named instance of a class that's created with specifically defined data. The object's attributes are unique from other objects based on the same class. The object serves as a simple representation of the class, abstracting the implementation details of the class itself. In this way, developers can focus primarily on the objects and how to manipulate them, rather than on how to implement the underlying logic.
+
+
+Post Lunch
+~~~~~~~~~~
+
+1)
+Given a number 'n', rearrange the digits in the number such that the resultant number is the next larger number than 'n'
+
+Samples:
+
+Input  1245321
+
+Output 1251234
+
+Input  31659884
+
+Output 31684590
+
+2) Given a number 'n' rearrange the digits in the number such that the resultant number is the smallest possible number using ALL the digits
+
+Input  789132
+
+Output 123789
+
+Input  903245023
+
+Output 200233459
+
+3) Given a number 'n1' and n2  rearrange n1 such that the resultant number is the next larger number than n2
+
+n1 67812
+
+n2 10000
+
+output 12678
+
+n1 67812
+
+n2 56000
+
+Output 61278
+
+4) 
+
+Project Euler #35
+
+5) 
+
+Project Euler #2
+
+Patterns
+
+1)
+Square
+
+*****
+*****
+*****
+*****
+*****
+
+2)
+Triangle1
+
+*
+**
+***
+****
+*****
+
+3) 
+Triangle2
+
+*****
+****
+***
+**
+*
+
+4) 
+Hollow Square
+
+*****
+*   *
+*   *
+*   *
+*****
+
+5)
+
+11111
+10001
+10001
+10001
+11111
+
+6)
+
+123456
+123451
+123412
+123123
+121234
+112345
+
+7)
+
+123456
+123456
+123466
+123666
+126666
+166666
+
+8) 
+Triangle 3
+
+*****
+ ****
+  ***
+   **
+    *
+
+9) 
+
+Triangle 4
+
+    *
+   **
+  ***
+ ****
+*****
+
+10)
+         *
+        ***
+       *****
+      *******
+     *********
+
