@@ -1,0 +1,83 @@
+Compiled from "month_name.java"
+class month_name {
+  month_name();
+    Code:
+       0: aload_0
+       1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+       4: return
+
+  public static void main(java.lang.String[]);
+    Code:
+       0: new           #7                  // class java/util/Scanner
+       3: dup
+       4: getstatic     #9                  // Field java/lang/System.in:Ljava/io/InputStream;
+       7: invokespecial #15                 // Method java/util/Scanner."<init>":(Ljava/io/InputStream;)V
+      10: astore_1
+      11: aload_1
+      12: invokevirtual #18                 // Method java/util/Scanner.nextInt:()I
+      15: istore_2
+      16: iload_2
+      17: tableswitch   { // 1 to 12
+                     1: 80
+                     2: 91
+                     3: 102
+                     4: 113
+                     5: 124
+                     6: 135
+                     7: 146
+                     8: 157
+                     9: 168
+                    10: 179
+                    11: 190
+                    12: 201
+               default: 209
+          }
+      80: getstatic     #22                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      83: ldc           #26                 // String January
+      85: invokevirtual #28                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+      88: goto          209
+      91: getstatic     #22                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      94: ldc           #34                 // String February
+      96: invokevirtual #28                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+      99: goto          209
+     102: getstatic     #22                 // Field java/lang/System.out:Ljava/io/PrintStream;
+     105: ldc           #36                 // String MArch
+     107: invokevirtual #28                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+     110: goto          209
+     113: getstatic     #22                 // Field java/lang/System.out:Ljava/io/PrintStream;
+     116: ldc           #38                 // String April
+     118: invokevirtual #28                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+     121: goto          209
+     124: getstatic     #22                 // Field java/lang/System.out:Ljava/io/PrintStream;
+     127: ldc           #40                 // String May
+     129: invokevirtual #28                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+     132: goto          209
+     135: getstatic     #22                 // Field java/lang/System.out:Ljava/io/PrintStream;
+     138: ldc           #42                 // String June
+     140: invokevirtual #28                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+     143: goto          209
+     146: getstatic     #22                 // Field java/lang/System.out:Ljava/io/PrintStream;
+     149: ldc           #44                 // String July
+     151: invokevirtual #28                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+     154: goto          209
+     157: getstatic     #22                 // Field java/lang/System.out:Ljava/io/PrintStream;
+     160: ldc           #46                 // String August
+     162: invokevirtual #28                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+     165: goto          209
+     168: getstatic     #22                 // Field java/lang/System.out:Ljava/io/PrintStream;
+     171: ldc           #48                 // String September
+     173: invokevirtual #28                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+     176: goto          209
+     179: getstatic     #22                 // Field java/lang/System.out:Ljava/io/PrintStream;
+     182: ldc           #50                 // String October
+     184: invokevirtual #28                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+     187: goto          209
+     190: getstatic     #22                 // Field java/lang/System.out:Ljava/io/PrintStream;
+     193: ldc           #52                 // String November
+     195: invokevirtual #28                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+     198: goto          209
+     201: getstatic     #22                 // Field java/lang/System.out:Ljava/io/PrintStream;
+     204: ldc           #54                 // String December
+     206: invokevirtual #28                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+     209: return
+}

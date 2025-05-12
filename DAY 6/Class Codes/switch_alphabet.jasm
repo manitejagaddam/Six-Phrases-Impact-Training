@@ -1,0 +1,59 @@
+Compiled from "switch_alphabet.java"
+class switch_alphabet {
+  switch_alphabet();
+    Code:
+       0: aload_0
+       1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+       4: return
+
+  public static void main(java.lang.String[]);
+    Code:
+       0: new           #7                  // class java/util/Scanner
+       3: dup
+       4: getstatic     #9                  // Field java/lang/System.in:Ljava/io/InputStream;
+       7: invokespecial #15                 // Method java/util/Scanner."<init>":(Ljava/io/InputStream;)V
+      10: astore_1
+      11: aload_1
+      12: invokevirtual #18                 // Method java/util/Scanner.next:()Ljava/lang/String;
+      15: iconst_0
+      16: invokevirtual #22                 // Method java/lang/String.charAt:(I)C
+      19: istore_2
+      20: iload_2
+      21: bipush        65
+      23: if_icmplt     32
+      26: iload_2
+      27: bipush        90
+      29: if_icmple     44
+      32: iload_2
+      33: bipush        97
+      35: if_icmplt     158
+      38: iload_2
+      39: bipush        122
+      41: if_icmpgt     158
+      44: iload_2
+      45: lookupswitch  { // 10
+                    65: 136
+                    69: 136
+                    73: 136
+                    79: 136
+                    85: 136
+                    97: 136
+                   101: 136
+                   105: 136
+                   111: 136
+                   117: 136
+               default: 147
+          }
+     136: getstatic     #28                 // Field java/lang/System.out:Ljava/io/PrintStream;
+     139: ldc           #32                 // String Vowel
+     141: invokevirtual #34                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+     144: goto          166
+     147: getstatic     #28                 // Field java/lang/System.out:Ljava/io/PrintStream;
+     150: ldc           #40                 // String Consonant
+     152: invokevirtual #34                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+     155: goto          166
+     158: getstatic     #28                 // Field java/lang/System.out:Ljava/io/PrintStream;
+     161: ldc           #42                 // String Enter an Alphabet
+     163: invokevirtual #34                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+     166: return
+}

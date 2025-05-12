@@ -1,0 +1,26 @@
+Switch
+
+Factors
+~~~~~~~
+
+Print all factors
+
+Print Count of Factors
+
+Print Sum of Factors
+
+Perfect / Abundant / Deficient
+
+Amicable Pair
+Generation
+
+Betrothed Pair
+Generation
+
+Prime Number 
+Generation
+ 
+GCD
+
+LCM
+
