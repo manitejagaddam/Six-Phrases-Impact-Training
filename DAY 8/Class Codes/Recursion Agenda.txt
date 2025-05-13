@@ -1,0 +1,192 @@
+Relation
+~~~~~~~~
+What is a relation in mathematics?
+In mathematics, a relation is a connection or relationship between the elements of two or more sets. It's essentially a rule that specifies which elements from one set are paired with elements from another set. Relations can be visualized as a set of ordered pairs (a, b), where 'a' belongs to the first set and 'b' belongs to the second set, and the relationship exists between 'a' and 'b'. 
+Key aspects of a relation:
+Definition:
+A relation establishes a connection between elements of sets. It's a rule that dictates how elements from one set are associated with elements from another. 
+Representation:
+Relations can be represented using ordered pairs, set-builder notation, or even arrow graphs (digraphs). 
+Ordered Pairs:
+A relation is often defined as a set of ordered pairs, where each pair represents a related element from two sets. 
+Sets:
+Relations are defined between sets, and the connection is based on a specific rule or property. 
+Example:
+Relations And Functions (video lessons, examples and solutions)
+Consider two sets: A = {1, 2, 3} and B = {2, 4, 6}. A relation could be defined as: "x is the square root of y". 
+In this case, the relation would be represented as {(1, 2), (2, 4), (3, 6)}, because 1 is the square root of 2, 2 is the square root of 4, and 3 is the square root of 6. 
+
+Function in Maths
+~~~~~~~~~~~~~~~~~
+In mathematics, a function is a rule or mapping that assigns exactly one output value to each input value. This means that each input in a function has a unique output. The set of all possible input values is called the domain, and the set of all possible output values is called the range or codomain. 
+Here's a more detailed breakdown:
+Input: The starting value or argument of a function.
+Output: The result or value produced by the function based on the input.
+Domain: The set of all possible input values for which the function is defined.
+Range/Codomain: The set of all possible output values that the function can produce. 
+Example:
+Consider the function f(x) = x + 2. 
+If the input (x) is 3, the output (f(x)) is 5. 
+The domain of this function is all real numbers (because you can add 2 to any real number). 
+The range of this function is also all real numbers (because the output can be any real number). 
+Key Characteristics:
+One-to-one:
+A function where each input maps to a unique output, and each output also has a unique input. 
+Onto:
+A function where every element in the codomain (range) has a corresponding element in the domain (set of inputs). 
+Many-to-one:
+A function where multiple inputs can map to the same output. 
+One-to-many:
+A function where one input can map to multiple outputs. However, a function, by definition, cannot be one-to-many. 
+In essence, a function is a special type of relationship where each input has a single, predetermined output. 
+
+Recurrence Relation In Maths
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In mathematics, a recurrence relation is an equation that defines a sequence based on a rule that gives the next term as a function of the previous terms. It's essentially a way to define a sequence in terms of itself. The simplest form is where the next term only depends on the immediate previous term. 
+Key aspects of recurrence relations:
+Recursive Definition:
+A recurrence relation defines a sequence by stating how to compute a new term (usually the next term) based on previous terms in the sequence. 
+Initial Values:
+To fully define a sequence using a recurrence relation, you also need initial values for the first few terms. For example, the Fibonacci sequence is defined recursively with the initial values F0 = 0 and F1 = 1. 
+Order:
+The order of a recurrence relation refers to the number of previous terms that are used to calculate the next term. A first-order recurrence relation depends only on the immediately preceding term, while a second-order relation depends on the two previous terms, and so on. 
+Linear vs. Non-linear:
+A linear recurrence relation expresses the next term as a linear combination of previous terms. The Fibonacci sequence is a classic example of a linear recurrence relation. 
+Applications:
+Recurrence relations have various applications in different areas of mathematics, including:
+Number theory: The Fibonacci sequence is a well-known example. 
+Algorithm analysis: They are used to model the behavior of algorithms and find their time complexity. 
+Combinatorics: They can be used to count arrangements or combinations. 
+Example:
+The Fibonacci sequence can be defined by the recurrence relation: 
+Code
+
+F(n) = F(n-1) + F(n-2)
+with initial values:
+Code
+
+F(0) = 0
+F(1) = 1
+This means that each term in the Fibonacci sequence is the sum of the two preceding terms. 
+In essence, a recurrence relation is a powerful tool for defining sequences and exploring their properties. 
+
+Recursion is a concept
+~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+Implementation Issues
+~~~~~~~~~~~~~~~~~~~~~
+
+Wrapper Function
+
+func( parameters )
+{
+  // arm length
+
+  // set an environment
+
+  // call helper - recursive, pass environment, initiate
+}
+Print 1 to n
+
+Print n to 1
+
+Factorial
+
+Fibonacci
+
+Number of Digits
+
+		6974
+		(4) <= 697
+		(7) <= 69
+		(9) <= 6
+		(6) <= 0
+   1 + numOfDigits_helper ( num / 10 )
+
+Sum of Digits
+		-6974
+
+
+
+
+
+
+
+Power
+
+
+		69745
+		60000 + 9000 + 700 + 40 + 5
+
+	6*10000 + 9*1000 + 7*100 + 4 *10 + 5 *1
+
+
+			69745	/	1	69745	
+			69745	/	10	6974
+			69745	/	100	697
+			69745	/	1000	69
+			69745	/	10000	6
+			69745	/	100000	0
+
+			69745	%	1	0
+			69745	%	10	5
+			69745	%	100	45
+			69745	%	1000	745
+			69745	%	10000   9745
+			69745	%	100000	69745
+
+
+
+
+
+
+
+
+
+		while ( num != 0 )
+		{
+			num /= 10;
+			nod++;
+		}
+		nod_num ( 6974 ) = 1 + nod_num(697)
+		nod_num ( 697  ) = 1 + nod_num(69)
+		nod_num ( 69   ) = 1 + nod_num(6)
+		nod_num ( 6    ) = 1 + nod_num(0)
+
+
+
+
+
+
+
+
+
+
+	
+
+Product of Two numbers
+
+multiplier, multiplicand
+
+   8           4
+
+Reverse a number
+
+Decimal to Binary
+
+Count the SET Bits
+
+
+
+
+
+
+
+
+
+
+
+
+
