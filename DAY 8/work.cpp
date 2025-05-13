@@ -87,33 +87,79 @@ using namespace std;
 // }
 
 
-long long smallestNum(long long num){
-    vector<int> freq(10, 0);
-    long long copy_num = num;
-    while(copy_num){
-        freq[copy_num % 10]++;
-        copy_num /= 10;
-    }
-    long long ans = 0;
-    if(freq[0]){
-        for(int i = 1 ; i < 10 ; i++){
-            if(freq[i]){
-                ans = i;
-                freq[i]--;
-                break;
-            }
-        }
-    }
+// long long smallestNum(long long num){
+//     vector<int> freq(10, 0);
+//     long long copy_num = num;
+//     while(copy_num){
+//         freq[copy_num % 10]++;
+//         copy_num /= 10;
+//     }
+//     long long ans = 0;
+//     if(freq[0]){
+//         for(int i = 1 ; i < 10 ; i++){
+//             if(freq[i]){
+//                 ans = i;
+//                 freq[i]--;
+//                 break;
+//             }
+//         }
+//     }
 
-    for(int i = 0 ; i < 10 ; i++){
-        while(freq[i]){
-            ans *= 10;
-            ans += i;
-            freq[i]--;
-        }
-    }
-    return ans;
-}
+//     for(int i = 0 ; i < 10 ; i++){
+//         while(freq[i]){
+//             ans *= 10;
+//             ans += i;
+//             freq[i]--;
+//         }
+//     }
+//     return ans;
+// }
+
+
+
+// // H/W 1
+// int reverse_helper(int n, int res){
+//     if(n == 0) return res;
+//     return reverse_helper(n / 10, res * 10 + n % 10);
+// }
+
+// int reverse_wrapper(int n){
+//     int neg = 1;
+//     if(n < 0) {
+//         n = -n;
+//         neg = -1;
+//     }
+//     if(n < 10) return n * neg;
+//     int ans = reverse_helper(n, 0);
+//     return ans * neg;
+// }
+
+
+
+// // H/W 2
+
+// long long convert(int n){
+//     if(n == 0) return 0;
+//     return convert(n / 2) * 10 + (n % 2);
+// }
+
+// long long decimalToBinary(int num){
+//     bool neg = false;
+//     if(num < 0) {
+//         num = -num;
+//         neg = true;
+//     }
+//     long long ans = convert(num);
+//     return ans;
+
+// }
+
+
+
+// H/W 3
+
+
+
 
 
 
@@ -162,9 +208,12 @@ int main(){
     // cin >> m >> n;
     // cout << multiply(m, n);
 
-    long long num;
+    // long long num;
+    int num;
     cin >> num;
-    cout << smallestNum(num);
+    // cout << smallestNum(num);
+    // cout << reverse_wrapper(num);
+    cout << decimalToBinary(num);
     
     
     // int ans = fact(n);
