@@ -1,0 +1,215 @@
+
+structure
+‍‍ˈस्‍ट्रक्‌च(र्‌)
+noun
+1.
+the way that the parts of something are put together or organized
+बनावट, रचना
+the political and social structure of a countrythe political and social structure of a country
+the grammatical structures of a language
+2.
+a building or something that has been built or made from a number of parts
+भवन या ढाँचा (अनेक खंड से रचित या निर्मित वस्‍तु)
+The old office block had been replaced by a modern glass structure.The old office block had been replaced by a modern glass structure.
+verb
+to arrange something in an organized way
+(किसी वस्‍तु को) सुव्‍यवस्थित करना
+
+
+data
+ˈडेटा
+noun
+(used as a plural noun in technical English, when the singular is datum) facts or information
+(तकनीकी अंग्रेज़ी में बहुवचन संज्ञा के रूप में प्रयुक्त जबकि एकवचन रूप datum है) तथ्‍य समूह या सूचना-संग्रह, डाटा
+
+
+
+What is a Data Structure?
+
+Data structures are fundamental organizational formats for storing and managing data in a way that allows efficient access and manipulation. They are used in various fields, including computer science, data science, and software development, to improve the performance and functionality of programs and applications. 
+Types of Data Structures:
+Data structures can be broadly categorized into:
+Linear Data Structures:
+These structures store elements in a sequential order, such as arrays, linked lists, stacks, and queues.
+Non-Linear Data Structures:
+These structures have a more complex organization, such as trees, graphs, hash tables, and heaps. 
+Common Data Structures:
+Arrays:
+A collection of elements of the same data type stored in contiguous memory locations. 
+Linked Lists:
+A sequence of nodes, where each node contains data and a reference (or link) to the next node in the sequence. 
+Stacks:
+A linear data structure that follows the Last-In, First-Out (LIFO) principle, where elements are added and removed from the top. 
+Queues:
+A linear data structure that follows the First-In, First-Out (FIFO) principle, where elements are added to the rear and removed from the front. 
+Trees:
+A hierarchical data structure where elements are organized in a parent-child relationship. 
+Graphs:
+A data structure that consists of nodes (vertices) and edges (lines) that connect the nodes, representing relationships between data elements. 
+Hash Tables:
+A data structure that uses a hash function to map keys to values, allowing for fast retrieval of data. 
+Importance of Data Structures:
+Efficient Data Management:
+Data structures enable efficient storage, retrieval, and manipulation of data, which is crucial for performance and scalability. 
+Algorithm Design:
+Choosing the right data structure can significantly impact the efficiency of algorithms used to solve problems. 
+Problem Solving:
+Data structures provide a framework for organizing and structuring data, which is essential for solving complex problems in various domains. 
+Software Development:
+Data structures are fundamental to building various applications, including databases, operating systems, and web applications. 
+ 
+Array
+~~~~~
+An array is a fundamental data structure in programming that stores a fixed-size sequence of elements of the same data type. These elements are accessed using an index , making it efficient to store and retrieve data. 
+Here's a more detailed explanation:
+Data Structure:
+Arrays are a way to organize data in a linear, contiguous manner. This means that all the elements are stored one after another in memory. 
+Homogeneous Data:
+All the elements in an array must be of the same data type (e.g., all integers or all strings). 
+Indexed Access:
+Each element in the array is assigned a unique index, starting from 0. This index allows for direct access to any element in the array. 
+Contiguous Memory:
+The elements in an array are stored in consecutive memory locations, which makes it efficient for accessing and manipulating data. 
+Fixed Size:
+Once an array is created, its size (the number of elements it can hold) is typically fixed. While some languages offer dynamic arrays (which can change in size), most basic arrays are fixed-size. 
+Applications:
+Arrays are widely used in various applications, including: 
+Storing data efficiently 
+Tabulating data 
+Image processing 
+Storing and manipulating lists of values 
+
+
+
+
+
+Declare
+
+
+	data_type [] name = { initializer list};
+	data_type [] name = new data_type [ size ];
+
+	int [] arr ;
+	int [] arr = new int [ 20 ]
+
+
+	
+Initialize
+
+	int [] days_in_months = {0,31,28,31,30,31,30,31,31,30,31,30,31};
+
+	Strings [] WeekDays = {"Sunday", 
+"Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"};
+
+
+
+	
+Print forward
+
+Print Backwards
+
+Sum an Integer Array
+
+Print the Average to 3 decimal precision
+
+
+
+
+
+
+
+
+Replace every element with SUM of EVERY other element
+{6,9,1,2,4,7}
+
+
+
+
+
+Replace every element with SUM of elements in the RIGHT side - larger Index
+{6,9,1,2,4,7}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Replace every element with SUM of elements in the LEFT  side - smaller Index
+{6,9,1,2,4,7}
+
+
+
+
+
+
+
+
+
+
+
+
+
+Reverse an ARRAY
+
+
+
+
+
+
+
+
+
+Rotate an Array
+
+
+
+
+
+Find the largest element
+
+Find the SMALLEST element
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
