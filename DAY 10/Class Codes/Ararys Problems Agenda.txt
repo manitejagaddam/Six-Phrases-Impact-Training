@@ -1,0 +1,36 @@
+
+1) 
+Given an array that has duplicates, remove all duplicates, replace with -1
+ ^
+{6,7,7,8,1,3,6,7,8,2,3,8,7,6,5,6,7,1,3,2,8,7,6,7,8,2,3,1,1,1}
+   ^
+ ^
+{6,7,7,8,1,3,-1,7,8,2,3,8,7,-1,5,-1,7,1,3,2,8,7,-1,7,8,2,3,1,1,1}
+                                                                ^
+
+   ^
+{6,7,7,8,1,3,-1,7,8,2,3,8,7,-1,5,-1,7,1,3,2,8,7,-1,7,8,2,3,1,1,1}
+     ^
+
+{6,7,8,1,3,2,5,........-1..........}
+
+2) Rotate an array
+
+   10 <= noe <= 10^6
+   1  <= rot <= 10^9
+
+3) Rearrange 
+	+ve / -ve
+	even / odd
+	div by 10 / not div by 10
+	prime / composite
+
+4) Selection Sort
+
+5) Sinking Sort
+
+6) Insertion Sort
+
+
+
+
