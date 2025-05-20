@@ -23,7 +23,7 @@ void showDate ( struct b1_date gd ) // gd -> given date
     dd   = (gd.folded_date%512) % 32;
     printf("%02d:%02d:%d\n", dd, mm , yyyy);
 }
-    static int days_in_months [] = {0,31,28,31,30,31,30,31,31,30,31,30,31};
+static int days_in_months [] = {0,31,28,31,30,31,30,31,31,30,31,30,31};
 
 #define TRUE 1
 #define FALSE 0
