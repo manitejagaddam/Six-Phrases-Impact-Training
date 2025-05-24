@@ -7,7 +7,6 @@ using namespace std::chrono;
 
 
 
-
 void sortSortedArrays(vector<int>& nums1, vector<int>& nums2) {
     int m = nums1.size();
     int n = nums2.size();
@@ -217,12 +216,30 @@ void mergeSort(vector<int> & nums, int start, int end){
 }
 
 
+int quickSortDivider(vector<int> & nums, int low, int high){
+    int pivot_ele = nums[high];
+    int lptr = low;
+    for(int i = low ; i < high ; i++){
+        if(nums[i] < pivot_ele){
+            swap(nums[lptr++], nums[i]);
+        }
+    }
+    swap(nums[lptr], nums[high]);
+    return lptr;
+}
 
 
 
-// void quickSort(vector<int> nums){
+void quickSort(vector<int> & nums, int low, int high){
+    if(low >= high) return;
 
-// }
+    int pivot_point = quickSortDivider(nums, low, high);
+    for(int i : nums) cout << i << " ";
+    cout << endl;
+    quickSort(nums, low, pivot_point - 1);
+    quickSort(nums, pivot_point + 1, high);
+
+}
 
 
 
@@ -237,14 +254,17 @@ int main() {
     vector<int> nums = {2,5,3,1,65,22,90,54,11,47};
     // sortSortedArrays(nums1, nums2);
     // mergeHelper(nums1, nums2);
-    mergeSort(nums, 0, nums.size() - 1);
+    // mergeSort(nums, 0, nums.size() - 1);
+    quickSort(nums, 0, nums.size() - 1);
+
+
+    cout << endl;
+    for(int i : nums) cout << i << "  ";
+    cout << endl;
 
     // print Vertivcal traversal
     // vector<vector<int>> mat = {{1,2,3,4}, {5,6,7,8},{}}
 
 
 }
-
-
-
 
