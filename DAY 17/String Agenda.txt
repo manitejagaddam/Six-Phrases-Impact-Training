@@ -1,0 +1,117 @@
+char * college = "Parul University"
+char college [] = "Parul University"
+
+String s2 = new String ( s1 );
+
+In programming languages like Java and C#, String and StringBuilder are both used for representing text, but they differ significantly in how they handle string manipulation. String is immutable, meaning its content cannot be changed after creation. For each modification, a new String object is created, potentially leading to performance issues when frequent modifications are needed. StringBuilder, on the other hand, is mutable. It allows for efficient string manipulation by modifying the existing StringBuilder object without creating new objects. 
+Here's a more detailed comparison:
+String:
+~~~~~~~
+Immutability:
+String objects cannot be modified after creation. Any operation that seems to modify a string (like concatenation) actually creates a new string object.
+Thread-safe (Java):
+String is inherently thread-safe because it is immutable.
+Performance:
+Frequent string modifications using String can lead to performance bottlenecks due to the constant creation of new objects.
+Memory:
+String can be stored in the string pool, which can help optimize memory usage. 
+StringBuilder:
+~~~~~~~~~~~~~~
+Mutability:
+StringBuilder objects can be modified directly. Operations like append(), insert(), and delete() modify the object in place. 
+Thread-unsafe (Java):
+StringBuilder is not thread-safe in Java, as it doesn't use synchronization. 
+Performance:
+StringBuilder is generally much faster for frequent string modifications, as it avoids the creation of numerous new objects. 
+Memory:
+StringBuilder is stored in the heap, not the string pool. 
+StringBuffer (Java): 
+StringBuffer is similar to StringBuilder but is thread-safe in Java due to its synchronized methods. This makes it suitable for multi-threaded environments. 
+When to use which:
+Use String when you need an immutable string or when you are dealing with a string that will not be modified frequently. 
+Use StringBuilder for single-threaded applications where frequent string modifications are needed for performance optimization. 
+Use StringBuffer for multi-threaded environments where thread safety is a requirement and you need to modify strings frequently. 
+In essence, StringBuilder is a more efficient choice for manipulating strings when you need to perform multiple modifications, while String is preferred when immutability and thread safety are more important. 
+
+
+Problem Solving Using Strings
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1)
+Given a string print only vowels else print a SPACE
+Example:
+one two three four five six seven eight nine ten
+charAt( ind)
+Output
+
+o e   o    ee  ou   i e  i   e e  ei     i e  e
+
+
+
+2)
+
+Given a string print the words that start with vowel and ends with vowel OR starts with a consonant and ends with a consonant
+
+Example:
+one two three four five six seven eight nine ten
+
+Output
+
+one
+four
+six
+seven
+ten
+
+3) Given a word check if it is a palindrome
+kayak,deified,rotator,repaper,deed,peep
+wow,noon,civic,racecar,level
+mom,malayalam
+
+4) Given a phrase check if it is palindrome
+"A man, a plan, a canal, Panama" 
+"Mr. Owl ate my metal worm" 
+"Do geese see God?" 
+"Was it a car or a cat I saw?"
+
+5) 
+Given two words/sentences , check if they are anagram.
+
+"listen" and "silent", 
+"race" and "care", 
+"Astronomer" and "Moon starer", 
+"funeral" and "real fun", 
+"Eleven plus two" and "Twelve plus one". 
+
+
+
+
+
+
+
+6) Special Reverse, reverse only alphabets ( upper and lower case), leave all the other characters untouched
+
+t44hi,s i3s a t####est s%%%ent,*ence f(o)r spe4cial r$$$everser
+
+
+
+
+
+
+
+
+7) Word Reversal, reverse the words in the sentence
+
+one two three four five six seven eight nine ten
+
+ten nine eight seven six five four three two one
+
+8) Find the maximum occurring character
+"""
+This feature, introduced in Java 15, enhances code readability by allowing strings to span multiple lines directly in the source code, without the need for explicit concatenation or escape sequences. Text blocks begin and end with three double-quote characters ("""). The content within these delimiters can span multiple lines, and line breaks are preserved as part of the string.
+"""
+
+9)
+
+
+
