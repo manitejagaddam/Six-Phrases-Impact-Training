@@ -1,0 +1,22 @@
+Special Reverse, reverse only alphabets ( upper and lower case), leave all the other characters untouched
+
+t44hi,s i3s a t####est s%%%ent,*ence f(o)r spe4cial r$$$everser
+
+
+
+
+
+
+
+
+Word Reversal, reverse the words in the sentence
+
+one two three four five six seven eight nine ten
+
+ten nine eight seven six five four three two one
+
+
+Find the maximum occurring character
+"""
+This feature, introduced in Java 15, enhances code readability by allowing strings to span multiple lines directly in the source code, without the need for explicit concatenation or escape sequences. Text blocks begin and end with three double-quote characters ("""). The content within these delimiters can span multiple lines, and line breaks are preserved as part of the string.
+"""
