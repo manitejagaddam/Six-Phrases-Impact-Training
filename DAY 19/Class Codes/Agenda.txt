@@ -1,0 +1,28 @@
+String Practice
+~~~~~~~~~~~~~~~
+
+long anyBaseConverter( String str, int base )
+{
+}
+Backtracking
+~~~~~~~~~~~~
+
+Polydivisible
+   Base 10
+   Base 8
+   Any Base
+
+n-queen
+
+TWO Dimensional Array - Intro
+
+		{41,50,59,12,21,30,39},
+                {49,58,18,20,29,38,40},
+                {57,17,19,28,37,46,48},
+                {16,25,27,36,45,47,56},
+                {24,26,35,44,53,55,15},
+                {32,34,43,52,54,14,23},
+                {33,42,51,60,13,22,31}
+
+
+
