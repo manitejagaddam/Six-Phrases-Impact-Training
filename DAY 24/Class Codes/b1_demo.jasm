@@ -1,0 +1,59 @@
+Compiled from "thisDemo.java"
+class b1_demo {
+  static int data;
+
+  int n1;
+
+  int n2;
+
+  int n3;
+
+  b1_demo(int, int, int);
+    Code:
+       0: aload_0
+       1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+       4: aload_0
+       5: iload_1
+       6: putfield      #7                  // Field n1:I
+       9: aload_0
+      10: iload_2
+      11: putfield      #13                 // Field n2:I
+      14: aload_0
+      15: iload_3
+      16: putfield      #16                 // Field n3:I
+      19: return
+
+  void print();
+    Code:
+       0: getstatic     #19                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       3: ldc           #25                 // String n1 = %d, n2 = %d , n3 = %d\n
+       5: iconst_3
+       6: anewarray     #2                  // class java/lang/Object
+       9: dup
+      10: iconst_0
+      11: aload_0
+      12: getfield      #7                  // Field n1:I
+      15: invokestatic  #27                 // Method java/lang/Integer.valueOf:(I)Ljava/lang/Integer;
+      18: aastore
+      19: dup
+      20: iconst_1
+      21: aload_0
+      22: getfield      #13                 // Field n2:I
+      25: invokestatic  #27                 // Method java/lang/Integer.valueOf:(I)Ljava/lang/Integer;
+      28: aastore
+      29: dup
+      30: iconst_2
+      31: aload_0
+      32: getfield      #16                 // Field n3:I
+      35: invokestatic  #27                 // Method java/lang/Integer.valueOf:(I)Ljava/lang/Integer;
+      38: aastore
+      39: invokevirtual #33                 // Method java/io/PrintStream.printf:(Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintStream;
+      42: pop
+      43: return
+
+  static {};
+    Code:
+       0: sipush        1234
+       3: putstatic     #39                 // Field data:I
+       6: return
+}

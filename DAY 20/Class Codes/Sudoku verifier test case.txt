@@ -1,0 +1,66 @@
+int sudoku[DIM][DIM] =
+     {
+         {4,3,5,2,6,9,7,8,1},
+         {6,8,2,5,7,1,4,9,3},
+         {1,9,7,8,3,4,5,6,2},
+         {8,2,6,1,9,5,3,4,7},
+         {3,7,4,6,8,2,9,1,5},
+         {9,5,1,7,4,3,6,2,8},
+         {5,1,9,3,2,6,8,7,4},
+         {2,4,8,9,5,7,1,3,6},
+         {7,6,3,4,1,8,2,5,9}
+     };
+int sudoku[DIM][DIM] =
+{
+{7,9,4,6,1,5,3,8,2},
+{3,6,1,4,8,2,9,5,7},
+{2,5,8,3,7,9,6,1,4},
+{6,2,3,9,5,1,7,4,8},
+{9,1,7,8,4,6,5,2,3},
+{8,4,5,7,2,3,1,6,9},
+{5,7,2,1,9,4,8,3,6},
+{4,3,9,5,6,8,2,7,1},
+{1,8,6,2,3,7,4,9,5}
+};
+
+
+
+2) Tower of Hanoi
+
+3) Write a 'C' program to print the difference of minimum and maximum when rotated.
+
+Example : 5317
+
+Rotation 1 : 7531
+Rotation 2 : 1753
+Rotation 3 : 3175
+
+Min is 1753 and Max is 7531
+Max - Min is 5778
+//Note : numbers will not have 0's
+2 <= n <= 100000000
+Note : Input might be MAXIMUM or MINIMUM, you need to consider them too
+4)
+Given a phone number in a string form, make the phone number into it's integer form, and print the remainder when divided by 1009.
+Note : All words are in lowercase only and it will not have country code
+Example : "six three eight three two three six six one nine"
+in it's integer form is 6383236619
+and 6383236619 % 1009 is 928
+
+Output : 928
+5)
+Write a program to word reverse a string.
+
+
+Example : "this is a test sentence to test this has 13 words for word reversal"
+Output  : "reversal word for words 13 has this test to sentence test a is this"
+
+string will have a maximum of 500 characters
+
+Test cases:
+"this is a test sentence to test this has 13 words for word reversal"
+"address of my friend is 169 South Marret Street opposite to dhrawpathi amman temple madurai"
+"In this article we will see its implementation using adjacency list and Priority Queue"
+"the system has to read the phone number and get a confirmation before they read the bill amount"
+"one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty"
+

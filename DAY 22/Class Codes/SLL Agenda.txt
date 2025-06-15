@@ -1,0 +1,81 @@
+Singly Linked List
+~~~~~~~~~~~~~~~~~
+ Node
++------------+------+
+|            |      |
++------------+------+
+     data     link(s)
+     data      next
+
+* Design the classes			
+* Always draw List(s)
+* Will help you determine the required reference variables/pointers
+* Operations on a linked list
+	-> create empty
+	-> create from a List
+	-> create from an array
+	-> create from a file
+	-> add nodes
+	-> add nodes at position
+		begin
+		end 
+		specified position
+	-> query
+		by value
+		by position
+		by range
+	-> delete
+		by value
+		by position
+		range
+	-> display
+	-> reverse
+	-> Loop
+	   	Form a Loop
+		Detect Loop - 1
+		Remove Loop
+	-> mid point of a Linked List
+		number of nodes
+		two pointer
+
+	
+quick sort
+
+	
+Loop Detection
+~~~~~~~~~~~~~~
+
+* Alter the class and add a visited identifier
+     
+
+
+Initailly all visited will be FALSE
+as we meet every node visited to be made TRUE
+if we meet null - > Loop free
+if we meet a NODEM that was visited earlier - LOOP
+
+
+
+
+Store all addresses of the visited NODEs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+* ARRAY
+* LINKED LIST 
+* SET / HASH
+prev, tptr
+
+TWO POINTERS
+~~~~~~~~~~~~~
+
+On a linear path, two bodies moving at different speeds WILL NEVER meet
+
+On a CIRCILAR path, two bodies moving at different speeds WILL  meet again AND again
+
+Hare and tortoise
+
+
+slow and fast
+
+
+
+

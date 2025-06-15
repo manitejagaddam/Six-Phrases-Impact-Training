@@ -1,0 +1,166 @@
+Non Linear DS
+
+Binary Tree
+
+Expression Tree
+
+Expression Tree Solving
+
+Print all possible sub-sequences
+
+{a,e,i,o,u}
+
+
+class console
+{
+    public static void gotoxy( int row, int col )
+	{
+	   System.out.printf("%c[%d;%dH", 27,row, col); 
+	}
+	public static void cls()
+	{
+	   System.out.printf("\033[2J"); 
+	}
+
+}
+
+void draw_tree( int start  , int end ,  struct node  * dispptr)
+{
+   int col;
+   static int row = 4;
+   col = (end - start )/ 2 + start;
+   if(dispptr!=0)  {
+   gotoxy(col,row);
+   printf("%c",dispptr->operator_or_operand);
+   row+=2;
+   draw_tree(start,end/2 + start/2,dispptr->left);
+   draw_tree(end/2  +start/2 + 1, end , dispptr -> right);
+   row-=2;
+   }
+}
+
+https://www.ccbp.in/blog/articles/application-of-tree-in-data-structure#applications-of-trees-in-data-structures
+
+
+Binary Tree using Dynamic memory allocation
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+Simple
+
+Any design Changes ?
+
+
+
+
+
+
+
+	a + b * c
+
+	abc*+
+
+
+
+       a + b * c 		abc
+                 ^
+
++ *
+
+
+
+
+
+
+	a + b - c
+            ^			
+	ab+c-
+
+
+		ab
+
++
+
+
+
+class stack
+{
+   Node [] safe;
+   int top;
+stack ( int count)
+{
+  safe = new Node [ count ]
+top = -1;
+}
+
+push ( Node keep )
+{
+   top++;
+   safe [ top ] = keep;
+}
+Node pop()
+{
+   return safe[top--];
+
+}
+}
+
+
+
+  0 1 2 3 4 
+{ a e i o u } => arr
+
+
+arr, 0
+
+do  not consider [ 0 ]
+  
+arr, 1
+
+consider arr[0]
+
+
+arr 2 
+
+arr 3
+
+
+
+
+
+arr, 4
+
+arr , 5
+{}
+
+{u}
+arr ,5
+
+{e}
+
+
+			ABCD
+			0000		{}
+			0001		{D}
+			0010		{C}
+			0011		{C D}
+			0100		{B}
+			0101		{B D}
+			0110		{B C}
+			0111		{B C D}
+			1000
+			1001
+			1110
+			1011
+			1100
+			1101
+			1110
+			1111
+
+
+
+
+
+
+
+

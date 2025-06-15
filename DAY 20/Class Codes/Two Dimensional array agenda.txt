@@ -1,0 +1,160 @@
+Two Dimensional Array
+~~~~~~~~~~~~~~~~~~~~~
+
+Given a ODD SQUARE MATRIX and the starting number check if it is a MAGIC SQUARE
+7 * 7
+
+    int [ ] [  ] ms = {
+                            {39,48,57,10,19,28,37},
+                            {47,56,16,18,27,36,38},
+                            {55,15,17,26,35,44,46},
+                            {14,23,25,34,43,45,54},
+                            {22,24,33,42,51,53,13},
+                            {30,32,41,50,52,12,21},
+                            {31,40,49,58,11,20,29}
+                             };
+ 
+  
+
+
+
+
+ What is the check_sum ?
+    midVal * dim
+    midVal = startNum + ( (dim*dim)/2)
+
+
+
+
+
+Find sum of all diagonal elements
+https://leetcode.com/problems/matrix-diagonal-sum/description/
+Given a square matrix mat, return the sum of the matrix diagonals. Only include the sum of all the elements on the primary diagonal and all the elements on the secondary diagonal that are not part of the primary diagonal.
+Input: mat = [[1,2,3],
+              [4,5,6],
+              [7,8,9]]
+Output: 25
+Explanation: Diagonals sum: 1 + 5 + 9 + 3 + 7 = 25
+Notice that element mat[1][1] = 5 is counted only once.
+Example 2:
+Input: mat = [[1,1,1,1],
+              [1,1,1,1],
+              [1,1,1,1],
+              [1,1,1,1]]
+Output: 8
+Example 3: Input: mat = [[5]]  Output: 5
+ Constraints:  n == mat.length == mat[i].length
+1 <= n <= 100    1 <= mat[i][j] <= 100 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[
+[2,0,0,1],
+[0,3,1,0],
+[0,5,2,0],
+[4,0,0,2]
+]
+
+Diagonal
+https://leetcode.com/problems/check-if-matrix-is-x-matrix/description/
+A square matrix is said to be an X-Matrix if both of the following conditions hold:
+All the elements in the diagonals of the matrix are non-zero. All other elements are 0.
+Given a 2D integer array grid of size n x n representing a square matrix, return true if grid is an X-Matrix. Otherwise, return false.
+Input: grid = [[2,0,0,1],[0,3,1,0],[0,5,2,0],[4,0,0,2]]
+Output: true
+Explanation: Refer to the diagram above. 
+An X-Matrix should have the green elements (diagonals) be non-zero and the red elements be 0. Thus, grid is an X-Matrix.
+Input: grid = [[5,7,0],[0,3,1],[0,5,0]]Output: false
+Explanation: Refer to the diagram above.
+An X-Matrix should have the green elements (diagonals) be non-zero and the red elements be 0.Thus, grid is not an X-Matrix.
+
+
+
+
+
+
+
+Toeplitz Matrix
+https://leetcode.com/problems/toeplitz-matrix/description/
+Given an m x n matrix, return true if the matrix is Toeplitz. Otherwise, return false.  matrix is Toeplitz if every diagonal from top-left to bottom-right has the same elements.
+Input: matrix = [[1,2,3,4],[5,1,2,3],[9,5,1,2]] Output: true
+Explanation: n the above grid, the diagonals are:
+"[9]", "[5, 5]", "[1, 1, 1]", "[2, 2, 2]", "[3, 3]", "[4]".
+In each diagonal all elements are the same, so the answer is True.
+Input: matrix = [[1,2],[2,2]] output: false
+Explanation: he diagonal "[1, 2]" has different elements.
+ Constraints:  == matrix.length
+n == matrix[i].length
+1 <= m, n <= 20
+0 <= matrix[i][j] <= 99
+1 2 3 4
+5 1 2 3
+9 5 1 2
+
+12,15,25,35,45,65
+23,12,15,25,35,45
+34,23,12,15,25,35
+45,34,23,12,15,25
+56,45,34,23,12,15
+67,56,45,34,23,12
+78,67,56,45,34,23
+89,78,67,56,45,34
+
+
+Sudoku Verifier
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Post Lunch
+
+Sudoku Solver
+
+
+Form a magic square for any ODD order
+
+Input : dim and startnum
+
+
+
+
+

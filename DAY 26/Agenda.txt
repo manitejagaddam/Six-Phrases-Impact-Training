@@ -1,0 +1,82 @@
+Infix to PostFix
+Preprocess
+Malayyalam
+    ^
+M$a$l$a$y$y$a$l$a$m
+
+((3 + 6) * (2+8)) * ( (8/2) * (3^5))
+
+48+35
+48$+$35$
+
+48$35$+$
+num1+num2
+num1$+$num2$
+num1$num2$+$
+((3+6)*(2+8))*((8/2)*(3^5))
+2^3^5
+
+(2^3)^5
+2^(3^5)
+
+Build Algo
+if token is an OPERAND , attach to OUTPUT
+if token is an OPERATOR, 
+compare token with waiting
+if waiting is > then send him to outut
+, repeat
+WAIT
+if token is ')' remove from the waiting till we meet '(' 
+Code
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Scan the infix expression from left to right. 
+((3 + 6) * (2+8)) * ( (8/2) * (3^5))
+If the scanned character is an operand, put it in the postfix expression. 
+Otherwise, do the following
+If the precedence of the current scanned operator is higher than the precedence of the operator on top of the stack, or if the stack is empty, or if the stack contains a ‘(‘, then push the current operator onto the stack.
+Else, pop all operators from the stack that have precedence higher than or equal to that of the current operator. After that push the current operator onto the stack.
+If the scanned character is a ‘(‘, push it to the stack. 
+If the scanned character is a ‘)’, pop the stack and output it until a ‘(‘is encountered, and discard both the parenthesis. 
+Repeat steps 2-5 until the infix expression is scanned. 
+Once the scanning is over, Pop the stack and add the operators in the postfix expression until it is not empty.
+Finally, print the postfix expression
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Postfix to Infix
+36+28+*82/35^** 
+
+Build Algo
+scan left to right
+
+if token is operand -> Wait
+OP2 = POP()
+OP1 = POP()
+FORM '( OP1 OPERATOR OP2 )'
+PUT -> WAIT
+
+Code
+
+
+
+BST
+
+add()
+inorder()
+preOrder()
+postOrder()
+delete()
+levelOrder()
+
+
+
+
+
+		Saravanan
+		Shravanthi 
+
+
+
+
+
+
+
